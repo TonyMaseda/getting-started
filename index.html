@@ -3,79 +3,82 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Starter Template</title>
+    <meta name="description" content="HTML learning platform">
+    <title>Getting Started</title>
 
-    <link rel="canonical" href="https://getbootstrap.comhttps://getbootstrap.com/docs/5.1/examples/starter-template/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://tonymaseda.github.io/getting-started/">
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   </head>
   <body>
 
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <div class="container p-5">
       <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
         <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
           <img src="favicon.ico" width="30px;" height="30px;" alt="Tony Maseda">
-          <span class="ps-2 fs-4">Starter template</span>
+          <span class="ps-2 fs-4">Getting Started</span>
         </a>
       </header>
 
-      <main>
-        <h1>Get started</h1>
-        <p class="fs-5 col-md-8">Hey Gio..</p>
+      <div class="row g-5">
+        <div class="col-md-6">
+          <h2>Apps</h2>
+          <p>Applications you'll need:</p>
+          <ul class="icon-list">
+            <li>
+              <a href="https://pulsar-edit.dev/download/" target="_blank">
+                Pulsar (text editor)
+              </a>
+            </li>
+          </ul>
+        </div><!-- .col-md-6 -->
 
-        <hr class="col-3 col-md-2 mb-5">
+        <div class="col-md-6">
+          <h2>Sites</h2>
+          <p>Websites you'll want to join (sign up free):</p>
+          <ul class="icon-list">
+            <li>
+              <a href="https://github.com/" target="_blank">
+                Github (code repository)
+              </a>
+            </li>
+          </ul>
+        </div><!-- .col-md-6 -->
+      </div><!-- .row -->
 
-        <div class="row g-5">
-          <div class="col-12">
-            <h2>Starter projects</h2>
-            <p>Ready to beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository.</p>
-            <ul class="icon-list">
-              <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">Bootstrap npm starter</a></li>
-            </ul>
-          </div>
+      <hr class="my-5">
 
-          <div class="col-md-6">
-            <h2>My Guides</h2>
-            <p>Blah blah</p>
-            <ul class="icon-list">
-              <li><a href="https://github.com/TonyMaseda/getting-started#" rel="noopener" target="_blank">This page's github repo</a></li>
-              <li class="text-muted">More (coming soon!)</li>
-            </ul>
-          </div>
+      <div class="row g-5">
+        <div class="col-md-6">
+          <h2>Guides</h2>
+          <p>Detailed learning resources</p>
+          <ul class="icon-list">
+            <li>
+              <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+                W3C website (lessons)
+              </a>
+            </li>
+          </ul>
+        </div><!-- .col-md-6 -->
 
-          <div class="col-md-6">
-            <h2>Bootstrap Guides</h2>
-            <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-            <ul class="icon-list">
-              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootstrap quick start guide</a></li>
-              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/parcel/">Bootstrap Parcel guide</a></li>
-              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/contribute/">Contributing to Bootstrap</a></li>
-            </ul>
-          </div>
-        </div>
-      </main>
+        <div class="col-md-6">
+          <h2>*My Guides</h2>
+          <p>Specific lessons, etc...</p>
+          <ul class="icon-list">
+            <li>
+              <a href="https://github.com/TonyMaseda/getting-started" target="_blank">
+                This page's code (github repo)
+              </a>
+            </li>
+          </ul>
+        </div><!-- .col-md-6 -->
+      </div><!-- .row -->
+
       <footer class="pt-5 my-5 text-muted border-top">
         <script>document.write(new Date().getFullYear())</script>
       </footer>
